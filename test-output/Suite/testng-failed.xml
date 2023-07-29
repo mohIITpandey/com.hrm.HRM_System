@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testAddAdmin">
+        <methods>
+          <include name="createAdmin"/>
+          <include name="login"/>
+          <include name="closeDataBase"/>
+          <include name="connectDataBase"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testAddAdmin -->
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testModifyCorporate">
+        <methods>
+          <include name="modifyCorporate"/>
+          <include name="login"/>
+          <include name="closeDataBase"/>
+          <include name="connectDataBase"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testModifyCorporate -->
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testDownlodEmployee">
+        <methods>
+          <include name="downloadEmployee"/>
+          <include name="login"/>
+          <include name="closeDataBase"/>
+          <include name="connectDataBase"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testDownlodEmployee -->
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testDeleteEmployee">
+        <methods>
+          <include name="login"/>
+          <include name="DeleteEmployee"/>
+          <include name="closeDataBase"/>
+          <include name="connectDataBase"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testDeleteEmployee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

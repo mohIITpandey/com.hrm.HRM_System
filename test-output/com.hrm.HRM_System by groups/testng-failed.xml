@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.hrm.HRM_System by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-RegressionTest,smokeTest(failed)">
+    <groups>
+      <run>
+        <include name="RegressionTest"/>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testModifyCorporate">
+        <methods>
+          <include name="modifyCorporate"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testModifyCorporate -->
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testAddAdmin">
+        <methods>
+          <include name="createAdmin"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testAddAdmin -->
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testDownlodEmployee">
+        <methods>
+          <include name="downloadEmployee"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testDownlodEmployee -->
+      <class name="com.hrm.HRM_SystemEmployee.Tc_testDeleteEmployee">
+        <methods>
+          <include name="DeleteEmployee"/>
+        </methods>
+      </class> <!-- com.hrm.HRM_SystemEmployee.Tc_testDeleteEmployee -->
+    </classes>
+  </test> <!-- GRP-RegressionTest,smokeTest(failed) -->
+</suite> <!-- Failed suite [com.hrm.HRM_System by groups] -->

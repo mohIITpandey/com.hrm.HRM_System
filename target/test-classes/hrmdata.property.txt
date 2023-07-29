@@ -1,0 +1,9 @@
+browser chrome
+url http://rmgtestingserver/domain/HRM_System/
+hrheadUsername hrhead@gmail.com
+hrheadUserName1 mohan@gmail.com
+hrheadPassword hrhead@123
+hrheadPassword1 hrhead1@123
+hrHeadType HR Head
+hrOfficerUserName hrofficer@gmail.com
+hrOfficerPassword hrofficer@123
